@@ -31,8 +31,9 @@ jobs:
       with:
         gradle-version: '9.3.1'
 
-    - name: Generate Wrapper & Build APK
+    - name: Generate Keystore & Build APK
       run: |
+        keytool -genkeypair -v -keystore debug.keystore -alias androiddebugkey -keypass android -storepass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
         gradle wrapper --gradle-version 9.3.1
         chmod +x gradlew
         ./gradlew assembleDebug --no-daemon -Djava.awt.headless=true --stacktrace
