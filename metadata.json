@@ -1,0 +1,7 @@
+{
+  "name": "سيرتي الاحترافية Pro",
+  "description": "منشئ السيرة الذاتية الاحترافي مع قوالب متقدمة وفحص ATS وتصدير PDF والنسخ الاحتياطي وبانر الأذكار",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

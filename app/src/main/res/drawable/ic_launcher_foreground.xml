@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Resume Paper Base with folded corner -->
+    <path
+        android:pathData="M32,24 L66,24 L80,38 L80,84 C80,86.2 78.2,88 76,88 L32,88 C29.8,88 28,86.2 28,84 L28,28 C28,25.8 29.8,24 32,24 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Folded corner overlay -->
+    <path
+        android:pathData="M66,24 L80,38 L68,38 C66.9,38 66,37.1 66,36 L66,24 Z"
+        android:fillColor="#E2E8F0" />
+
+    <!-- Avatar circle in header -->
+    <path
+        android:pathData="M40,39 A6,6 0 1,0 40,27 A6,6 0 1,0 40,39 Z"
+        android:fillColor="#10B981" />
+
+    <!-- Header name line -->
+    <path
+        android:pathData="M50,31 L62,31"
+        android:strokeWidth="3.5"
+        android:strokeColor="#0F172A"
+        android:strokeLineCap="round" />
+
+    <!-- Header title line -->
+    <path
+        android:pathData="M50,37 L58,37"
+        android:strokeWidth="2"
+        android:strokeColor="#64748B"
+        android:strokeLineCap="round" />
+
+    <!-- Accent divider -->
+    <path
+        android:pathData="M34,46 L74,46"
+        android:strokeWidth="2"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+
+    <!-- Resume section line 1 -->
+    <path
+        android:pathData="M34,53 L56,53"
+        android:strokeWidth="3"
+        android:strokeColor="#1E293B"
+        android:strokeLineCap="round" />
+
+    <!-- Resume body lines -->
+    <path
+        android:pathData="M34,60 L74,60"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M34,66 L70,66"
+        android:strokeWidth="2"
+        android:strokeColor="#CBD5E1"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M34,72 L74,72"
+        android:strokeWidth="2"
+        android:strokeColor="#94A3B8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M34,78 L60,78"
+        android:strokeWidth="2"
+        android:strokeColor="#CBD5E1"
+        android:strokeLineCap="round" />
+
+    <!-- Checkmark Badge on bottom right -->
+    <path
+        android:pathData="M72,74 A9,9 0 1,0 72,56 A9,9 0 1,0 72,74 Z"
+        android:fillColor="#10B981" />
+    <path
+        android:pathData="M69,65 L71.5,67.5 L75.5,62.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
